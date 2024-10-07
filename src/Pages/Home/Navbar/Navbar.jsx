@@ -10,7 +10,7 @@ const Navbar = () => {
               htmlFor="my-drawer"
               className="avatar py-3 lg:pl-12 drawer-button"
             >
-              <div className="ring-lime-200  ring-offset-base-100 w-12 rounded-full ring ring-offset-2">
+              <div className="ring-lime-200  ring-offset-base-100 w-14 rounded-full ring ring-offset-2">
                 <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
               </div>
             </label>
