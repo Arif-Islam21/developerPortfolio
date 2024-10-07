@@ -2,7 +2,7 @@ import img from "/portfolio.png";
 
 const Hero = () => {
   return (
-    <div className=" bg-primary min-h-[80vh]">
+    <div className=" bg-[#34353A] min-h-[70vh]">
       <div className="hero-content gap-24 flex-col-reverse lg:flex-row">
         <div className="max-w-sm ">
           <h1 className="text-3xl font-bold">
@@ -27,7 +27,8 @@ const Hero = () => {
             </button>
           </div>
         </div>
-        <img src={img} className=" rounded-lg" />
+
+        <img src={img} className="object-cover rounded-lg" />
       </div>
     </div>
   );
