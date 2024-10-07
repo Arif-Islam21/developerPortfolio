@@ -3,7 +3,7 @@ import Navbar from "../Pages/Home/Navbar/Navbar";
 
 const Main = () => {
   return (
-    <div className="bg-primary min-h-screen">
+    <div className="bg-primary text-textColor min-h-screen">
       <Navbar />
       <Outlet />
       <p>footer</p>

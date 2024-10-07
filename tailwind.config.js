@@ -6,6 +6,7 @@ export default {
       colors: {
         // primary: "#0D1B2A ",
         primary: "#1F1F1F ",
+        textColor: "#F7F7F7",
         secondary: "#0D1B2A",
         accent: "#F70000",
         // accent: "#B22222",
