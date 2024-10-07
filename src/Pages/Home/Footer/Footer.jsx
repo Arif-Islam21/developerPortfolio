@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <footer className="footer footer-center bg-base-100 text-base-content p-4">
       <aside>
-        <h2 className="text-3xl font-merriWeather text-textColor">
+        <h2 className="text-3xl font-merriWeather text-text-Color font-bold">
           Thanks For Scrolling
         </h2>
       </aside>
