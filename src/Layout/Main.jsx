@@ -1,9 +1,10 @@
 import { Outlet } from "react-router-dom";
+import Navbar from "../Pages/Home/Navbar/Navbar";
 
 const Main = () => {
   return (
-    <div>
-      <p>Navbar</p>
+    <div className="bg-primary min-h-screen">
+      <Navbar />
       <Outlet />
       <p>footer</p>
     </div>

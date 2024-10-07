@@ -1,5 +1,11 @@
+import Sidebar from "./Sidebar";
+
 const Navbar = () => {
-  return <div>this is navbar</div>;
+  return (
+    <div>
+      <Sidebar />
+    </div>
+  );
 };
 
 export default Navbar;
