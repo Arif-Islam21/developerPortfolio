@@ -17,7 +17,7 @@ const Navbar = () => {
             <div className="flex-none lg:pr-12">
               <ul className="menu menu-horizontal px-1">
                 <li>
-                  <a>Link</a>
+                  <a className="font-merriWeather">Link</a>
                 </li>
                 <li>
                   <a>Link</a>
