@@ -3,8 +3,8 @@ import img from "/portfolio.png";
 const Hero = () => {
   return (
     <div className=" bg-primary min-h-[80vh]">
-      <div className="hero-content gap-24  flex-col-reverse lg:flex-row">
-        <div className="max-w-sm border-2">
+      <div className="hero-content gap-24 flex-col-reverse lg:flex-row">
+        <div className="max-w-sm ">
           <h1 className="text-3xl font-bold">
             I'm___
             <span className="text-5xl font-merriWeather text-text-Color">
@@ -17,13 +17,17 @@ const Hero = () => {
             </span>{" "}
             stack developer &{" "}
             <span className="text-2xl font-merriWeather text-text-Color">
-              React
+              Front-End
             </span>{" "}
-            developer
+            expert
           </p>
-          <button className="btn btn-primary">Get Started</button>
+          <div className="justify-end flex">
+            <button className="btn btn-outline border-text-Color font-bold text-text-Color hover:bg-text-Color">
+              Get Started
+            </button>
+          </div>
         </div>
-        <img src={img} className="   rounded-lg" />
+        <img src={img} className=" rounded-lg" />
       </div>
     </div>
   );
