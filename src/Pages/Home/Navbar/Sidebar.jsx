@@ -16,7 +16,7 @@ const Sidebar = () => {
             {/* <h1 className="text-3xl font-bold">Welcome to My Portfolio</h1>
             <p>Your content goes here...</p> */}
           </div>
-          <div className="drawer-side ">
+          <div className="lg:translate-x-0 drawer-side">
             <label htmlFor="my-drawer" className="drawer-overlay"></label>
             <ul className="menu p-4 lg:w-80 min-h-screen bg-base-100">
               <li>
