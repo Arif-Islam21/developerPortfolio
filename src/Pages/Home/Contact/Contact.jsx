@@ -56,7 +56,21 @@ const Contact = () => {
             <a target="_blank" href="https://github.com/Arif-Islam21">
               <FaGithub />
             </a>
-            <BsTwitterX /> <FaInstagram /> <FaWhatsapp /> <FaLinkedin />
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/ar-arif-903363210?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            >
+              <FaLinkedin />
+            </a>
+            <a target="_blank" href="https://wa.me/qr/ELOQYSOXGWN6H1">
+              <FaWhatsapp />
+            </a>
+            <a className="cursor-not-allowed" href="">
+              <BsTwitterX />
+            </a>{" "}
+            <a className="cursor-not-allowed" href="">
+              <FaInstagram />
+            </a>{" "}
           </div>
         </h2>
         <div className=" bg-text-Color rounded-box grid h-1 flex-grow place-items-center"></div>
