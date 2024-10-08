@@ -1,3 +1,5 @@
+import img from "/portfolio.png";
+
 const Navbar = () => {
   return (
     <div className="navbar bg-base-100">
@@ -11,7 +13,7 @@ const Navbar = () => {
               className="avatar py-3 lg:pl-12 drawer-button"
             >
               <div className="ring-lime-200  ring-offset-base-100 w-14 rounded-full ring ring-offset-2">
-                <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+                <img src={img} />
               </div>
             </label>
             <div className="flex-none lg:pr-12">
