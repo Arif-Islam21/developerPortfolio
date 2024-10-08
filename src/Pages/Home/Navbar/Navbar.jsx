@@ -19,13 +19,19 @@ const Navbar = () => {
             <div className="flex-none lg:pr-12">
               <ul className="menu menu-horizontal px-1">
                 <li>
-                  <a className="font-merriWeather">Link</a>
+                  <a className="font-merriWeather">About</a>
                 </li>
                 <li>
-                  <a>Link</a>
+                  <a className="font-merriWeather">Skills</a>
                 </li>
                 <li>
-                  <a>Link</a>
+                  <a className="font-merriWeather">Portfolio</a>
+                </li>
+                <li>
+                  <a className="font-merriWeather">Experience</a>
+                </li>
+                <li>
+                  <a className="font-merriWeather">Contact</a>
                 </li>
               </ul>
             </div>

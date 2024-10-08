@@ -1,3 +1,4 @@
+import { BiLogoGmail } from "react-icons/bi";
 import { BsTwitterX } from "react-icons/bs";
 import { FaFacebook, FaGithub, FaPhoneAlt } from "react-icons/fa";
 import {
@@ -19,7 +20,7 @@ const Contact = () => {
         <div className=" bg-text-Color rounded-box grid h-1 flex-grow place-items-center"></div>
       </div>
       <div className="lg:py-12 px-auto inline-block md:ml-[25vw]">
-        <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
+        <div className="grid grid-cols-1 gap-6 py-4 md:grid-cols-2">
           <div className="inline-block">
             <div className=" flex items-center py-4 bg-primary rounded-lg px-8 gap-2">
               <span className="text-2xl">
@@ -36,7 +37,7 @@ const Contact = () => {
               <p>+08801833668024</p>
             </div>
           </div>
-          <div className="inline-block col-span-2 mx-auto">
+          <div className="inline-block lg:col-span-2 lg:mx-auto">
             <div className=" flex items-center py-4 bg-primary rounded-lg px-8 gap-2">
               <span className="text-2xl">
                 <FaLocationDot />
@@ -65,8 +66,8 @@ const Contact = () => {
             <a target="_blank" href="https://wa.me/qr/ELOQYSOXGWN6H1">
               <FaWhatsapp />
             </a>
-            <a className="cursor-not-allowed" href="">
-              <BsTwitterX />
+            <a target="_blank" href="mailto:arif.sojib2020@gmail.com">
+              <BiLogoGmail />
             </a>{" "}
             <a className="cursor-not-allowed" href="">
               <FaInstagram />
