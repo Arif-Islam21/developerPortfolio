@@ -1,7 +1,3 @@
-import image from "../../src/assets/images/express.jfif";
-import image2 from "../../src/assets/images/bootstrap.png";
-import { FaNodeJs } from "react-icons/fa";
-
 const Card = ({ text, icons }) => {
   return (
     <div className="card my-4 bg-base-100 hover:bg-text-Color hover:text-black hover:scale-110 transition hover:shadow-xl duration-1000 shadow-xl">
