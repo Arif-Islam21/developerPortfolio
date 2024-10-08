@@ -1,8 +1,10 @@
+import { FaPhoneAlt } from "react-icons/fa";
+import { FaLocationDot } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 
 const Contact = () => {
   return (
-    <div className="py-8 bg-base-100 border-2">
+    <div className="py-8 bg-base-100">
       <div className="flex w-full items-center">
         <div className=" bg-text-Color rounded-box grid h-1 flex-grow place-items-center"></div>
         <h2 className="px-6 text-3xl uppercase lg:text-5xl font-bold text-center text-white">
@@ -10,7 +12,7 @@ const Contact = () => {
         </h2>
         <div className=" bg-text-Color rounded-box grid h-1 flex-grow place-items-center"></div>
       </div>
-      <div className="lg:py-12 px-auto inline-block border-2">
+      <div className="lg:py-12 px-auto inline-block md:ml-[25vw]">
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
           <div className="inline-block">
             <div className=" flex items-center py-4 bg-primary rounded-lg px-8 gap-2">
@@ -23,17 +25,17 @@ const Contact = () => {
           <div className="inline-block">
             <div className=" flex items-center py-4 bg-primary rounded-lg px-8 gap-2">
               <span className="text-2xl">
-                <MdEmail />
+                <FaPhoneAlt />
               </span>{" "}
-              <p>arif.sojib2020@gmail.com</p>
+              <p>+08801833668024</p>
             </div>
           </div>
-          <div className="inline-block">
+          <div className="inline-block col-span-2 mx-auto">
             <div className=" flex items-center py-4 bg-primary rounded-lg px-8 gap-2">
               <span className="text-2xl">
-                <MdEmail />
+                <FaLocationDot />
               </span>{" "}
-              <p>arif.sojib2020@gmail.com</p>
+              <p>Nilphamari sadar, Bangladesh</p>
             </div>
           </div>
         </div>

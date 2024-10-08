@@ -22,7 +22,7 @@ const Hero = () => {
             </span>{" "}
             expert
           </p>
-          <div className="justify-end flex">
+          <div className="justify-center md:justify-end flex">
             <button className="btn btn-outline border-text-Color font-bold text-text-Color hover:bg-text-Color">
               Get Started
             </button>
