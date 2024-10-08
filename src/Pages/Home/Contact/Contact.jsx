@@ -1,5 +1,11 @@
-import { FaPhoneAlt } from "react-icons/fa";
-import { FaLocationDot } from "react-icons/fa6";
+import { BsTwitterX } from "react-icons/bs";
+import { FaFacebook, FaGithub, FaPhoneAlt } from "react-icons/fa";
+import {
+  FaInstagram,
+  FaLinkedin,
+  FaLocationDot,
+  FaWhatsapp,
+} from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 
 const Contact = () => {
@@ -39,6 +45,21 @@ const Contact = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className="flex w-full items-center">
+        <div className=" bg-text-Color rounded-box grid h-1 flex-grow place-items-center"></div>
+        <h2 className="px-6 text-xl uppercase lg:text-3xl font-bold text-center text-white">
+          <div className="flex gap-3">
+            <a target="_blank" href="https://www.facebook.com/Ariful.arif2020">
+              <FaFacebook />
+            </a>
+            <a target="_blank" href="https://github.com/Arif-Islam21">
+              <FaGithub />
+            </a>
+            <BsTwitterX /> <FaInstagram /> <FaWhatsapp /> <FaLinkedin />
+          </div>
+        </h2>
+        <div className=" bg-text-Color rounded-box grid h-1 flex-grow place-items-center"></div>
       </div>
     </div>
   );
