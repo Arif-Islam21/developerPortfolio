@@ -1,4 +1,5 @@
 import img from "/portfolio.png";
+import background from "/bgimage.png";
 
 const Hero = () => {
   return (
@@ -28,7 +29,15 @@ const Hero = () => {
           </div>
         </div>
 
-        <img src={img} className="object-cover rounded-lg" />
+        <img
+          src={img}
+          style={{
+            borderRadius: "54% 46% 63% 37% / 50% 31% 69% 50%",
+            backgroundImage: `url(${background})`,
+            backgroundSize: "cover",
+          }}
+          className={`object-cover animate-border-radius-move border-4 rounded-lg bg-white`}
+        />
       </div>
     </div>
   );

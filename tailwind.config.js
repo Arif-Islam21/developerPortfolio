@@ -3,6 +3,17 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      keyframes: {
+        borderRadiusMove: {
+          "0%, 100%": { borderRadius: "31% 69% 45% 55% / 45% 60% 40% 55% " },
+          "25%": { borderRadius: "50% 50% 32% 68% / 57% 39% 61% 43%" },
+          "50%": { borderRadius: "60% 40% 50% 50% / 39% 60% 40% 61%" },
+          "75%": { borderRadius: "25% 75% 27% 73% / 67% 26% 74% 33%" },
+        },
+      },
+      animation: {
+        "border-radius-move": "borderRadiusMove 5s infinite",
+      },
       fontFamily: {
         merriWeather: `"Merriweather", serif`,
       },
