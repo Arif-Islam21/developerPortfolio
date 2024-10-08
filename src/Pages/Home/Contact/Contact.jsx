@@ -5,13 +5,14 @@ import {
   FaInstagram,
   FaLinkedin,
   FaLocationDot,
+  FaPhone,
   FaWhatsapp,
 } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 
 const Contact = () => {
   return (
-    <div className="py-8 bg-base-100">
+    <div id="contact" className="py-8 bg-base-100">
       <div className="flex w-full items-center">
         <div className=" bg-text-Color rounded-box grid h-1 flex-grow place-items-center"></div>
         <h2 className="px-6 text-3xl uppercase lg:text-5xl font-bold text-center text-white">
@@ -69,8 +70,8 @@ const Contact = () => {
             <a target="_blank" href="mailto:arif.sojib2020@gmail.com">
               <BiLogoGmail />
             </a>{" "}
-            <a className="cursor-not-allowed" href="">
-              <FaInstagram />
+            <a target="_blank" href="tel:+8801833668024">
+              <FaPhone />
             </a>{" "}
           </div>
         </h2>

@@ -6,7 +6,7 @@ import SectionTitle from "../../../Components/SectionTitle";
 
 const Portfolio = () => {
   return (
-    <div className="my-8 bg-base-100 py-6">
+    <div className="my-8 bg-base-100 py-6" id="portfolio">
       <SectionTitle main={"Portfolio"} sub={"Some of my works"} />
       <div className="lg:mx-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         <div className="relative h-72 overflow-hidden rounded-sm">

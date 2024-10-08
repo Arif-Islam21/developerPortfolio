@@ -13,7 +13,7 @@ import SectionTitle from "../../../Components/SectionTitle";
 
 const MySkills = () => {
   return (
-    <div className="my-6">
+    <div id="skills" className="my-6">
       <div>
         <SectionTitle main={"My skills"} />
       </div>

@@ -2,7 +2,7 @@ import SectionTitle from "../../../Components/SectionTitle";
 
 const Experience = () => {
   return (
-    <div className="lg:px-12">
+    <div id="experience" className="lg:px-12">
       <SectionTitle main={"experience"} />
       <div className="flex flex-col md:flex-row justify-around">
         <div className="flex justify-center py-6 gap-4">

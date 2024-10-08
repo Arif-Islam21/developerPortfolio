@@ -1,3 +1,4 @@
+import { Link, NavLink } from "react-router-dom";
 import img from "/portfolio.png";
 
 const Navbar = () => {
@@ -19,19 +20,29 @@ const Navbar = () => {
             <div className="flex-none lg:pr-12">
               <ul className="menu menu-horizontal px-1">
                 <li>
-                  <a className="font-merriWeather">About</a>
+                  <a href="#about" className="font-merriWeather">
+                    About
+                  </a>
                 </li>
                 <li>
-                  <a className="font-merriWeather">Skills</a>
+                  <a href="#skills" className="font-merriWeather">
+                    Skills
+                  </a>
                 </li>
                 <li>
-                  <a className="font-merriWeather">Portfolio</a>
+                  <a href="#portfolio" className="font-merriWeather">
+                    Portfolio
+                  </a>
                 </li>
                 <li>
-                  <a className="font-merriWeather">Experience</a>
+                  <a href="#experience" className="font-merriWeather">
+                    Experience
+                  </a>
                 </li>
                 <li>
-                  <a className="font-merriWeather">Contact</a>
+                  <a href="#contact" className="font-merriWeather">
+                    Contact
+                  </a>
                 </li>
               </ul>
             </div>
@@ -45,10 +56,7 @@ const Navbar = () => {
             <ul className="menu bg-base-100 text-base-content min-h-full w-80 p-4">
               {/* Sidebar content here */}
               <li>
-                <a>Sidebar Item 1</a>
-              </li>
-              <li>
-                <a>Sidebar Item 2</a>
+                <a>Content coming soon...</a>
               </li>
             </ul>
           </div>
