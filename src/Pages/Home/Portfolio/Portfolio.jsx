@@ -2,16 +2,12 @@ import port1 from "../../../../src/assets/images/screencapture-hostelhub-75eaf-w
 import port2 from "../../../../src/assets/images/port2.png";
 import port3 from "../../../../src/assets/images/port3.png";
 import port4 from "../../../../src/assets/images/port4.png";
+import SectionTitle from "../../../Components/SectionTitle";
 
 const Portfolio = () => {
   return (
-    <div className="my-8">
-      <div>
-        <h2 className="text-3xl lg:text-5xl font-bold text-center text-text-Color mt-6">
-          Portfolio
-        </h2>
-        <p className="text-center mb-6 font-merriWeather">Some of my Works</p>
-      </div>
+    <div className="my-8 bg-base-100 py-6">
+      <SectionTitle main={"Portfolio"} sub={"Some of my works"} />
       <div className="lg:mx-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         <div className="relative h-72 overflow-hidden rounded-sm">
           <img
@@ -41,6 +37,11 @@ const Portfolio = () => {
             className="absolute top-0 left-0 h-auto w-full transition-all duration-[4500ms] ease-in-out hover:transform hover:translate-y-[-71%]"
           />
         </div>
+      </div>
+      <div className="flex justify-center my-4">
+        <button className="btn btn-outline border-text-Color font-bold text-text-Color hover:bg-text-Color">
+          Show More
+        </button>
       </div>
     </div>
   );

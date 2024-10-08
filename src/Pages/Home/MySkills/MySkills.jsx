@@ -9,14 +9,13 @@ import {
   SiReactquery,
   SiReactrouter,
 } from "react-icons/si";
+import SectionTitle from "../../../Components/SectionTitle";
 
 const MySkills = () => {
   return (
     <div className="my-6">
       <div>
-        <h2 className="text-3xl lg:text-5xl font-bold text-center text-text-Color my-6">
-          My Skills
-        </h2>
+        <SectionTitle main={"My skills"} />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-items-center gap-4 lg:px-16">
         <Card text={"HTML"} icons={<FaHtml5 size={72} color="#DD4B25" />} />
