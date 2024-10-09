@@ -12,11 +12,23 @@ const Navbar = () => {
               htmlFor="my-drawer"
               className="avatar py-3 lg:pl-12 drawer-button"
             >
-              <div className="ring-lime-200  ring-offset-base-100 w-14 rounded-full ring ring-offset-2">
+              <div
+                data-aos="fade-zoom-in"
+                data-aos-offset="300"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-back"
+                className="ring-lime-200  ring-offset-base-100 w-14 rounded-full ring ring-offset-2"
+              >
                 <img src={img} />
               </div>
             </label>
-            <div className="flex-none lg:pr-12">
+            <div
+              data-aos="fade-zoom-in"
+              data-aos-offset="300"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-back"
+              className="flex-none lg:pr-12"
+            >
               <ul className="menu hidden lg:flex menu-horizontal px-1">
                 <li>
                   <a href="#about" className="font-merriWeather">
@@ -46,45 +58,6 @@ const Navbar = () => {
               </ul>
             </div>
           </div>
-          {/* <div className="drawer-side lg:hidden">
-            <label
-              htmlFor="my-drawer"
-              aria-label="close sidebar"
-              className="drawer-overlay"
-            ></label>
-            <ul
-              aria-label="close sidebar"
-              className="menu custom-ul text-white bg-base-100 min-h-full w-80 p-4"
-            >
-              {/* Sidebar content here */}
-
-          {/* <li>
-                <a href="#about" className="font-merriWeather">
-                  About
-                </a>
-              </li>
-              <li>
-                <a href="#skills" className="font-merriWeather">
-                  Skills
-                </a>
-              </li>
-              <li>
-                <a href="#portfolio" className="font-merriWeather">
-                  Portfolio
-                </a>
-              </li>
-              <li>
-                <a href="#experience" className="font-merriWeather">
-                  Experience
-                </a>
-              </li>
-              <li>
-                <a href="#contact" className="font-merriWeather">
-                  Contact
-                </a>
-              </li>
-            </ul>
-          </div> */}
         </div>
       </div>
     </div>
