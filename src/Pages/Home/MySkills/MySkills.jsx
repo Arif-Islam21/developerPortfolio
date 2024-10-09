@@ -10,6 +10,7 @@ import {
   SiReactrouter,
 } from "react-icons/si";
 import SectionTitle from "../../../Components/SectionTitle";
+import ParentComponent from "./ParentComponent";
 
 const MySkills = () => {
   return (
