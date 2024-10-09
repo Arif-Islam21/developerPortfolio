@@ -2,7 +2,7 @@ import img from "/portfolio.png";
 
 const Navbar = () => {
   return (
-    <div className="navbar bg-base-100">
+    <div className="navbar border-2 bg-base-100">
       <div className="flex-1">
         <div className="drawer ">
           <input id="my-drawer" type="checkbox" className="drawer-toggle" />
