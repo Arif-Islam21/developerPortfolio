@@ -15,7 +15,7 @@ const Navbar = () => {
               <div
                 data-aos="fade-zoom-in"
                 data-aos-offset="300"
-                data-aos-duration="1000"
+                data-aos-duration="500"
                 data-aos-easing="ease-in-back"
                 className="ring-lime-200  ring-offset-base-100 w-14 rounded-full ring ring-offset-2"
               >
@@ -25,7 +25,7 @@ const Navbar = () => {
             <div
               data-aos="fade-zoom-in"
               data-aos-offset="300"
-              data-aos-duration="1000"
+              data-aos-duration="500"
               data-aos-easing="ease-in-back"
               className="flex-none lg:pr-12"
             >

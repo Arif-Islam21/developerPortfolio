@@ -4,9 +4,13 @@ import resume from "/resume.jpg";
 
 const Hero = () => {
   return (
-    <div className=" bg-[#34353A] min-h-[70vh]">
+    <div className="bg-[#34353A] min-h-[70vh]">
       <div className="hero-content gap-24 flex-col-reverse lg:flex-row">
-        <div className="max-w-sm ">
+        <div
+          data-aos="fade-down"
+          data-aos-duration="2000"
+          className="max-w-sm "
+        >
           <h1 className="text-3xl font-bold">
             I'm___
             <span className="text-5xl font-merriWeather text-text-Color">
@@ -25,12 +29,16 @@ const Hero = () => {
           </p>
           <div className="justify-center flex-col lg:flex-row gap-3 md:justify-end flex">
             <button
+              data-aos="fade-up"
+              data-aos-duration="1000"
               onClick={() => document.getElementById("my_modal_1").showModal()}
               className="btn btn-outline border-text-Color font-bold text-text-Color hover:bg-text-Color"
             >
               Preview Resume
             </button>
             <a
+              data-aos="fade-up"
+              data-aos-duration="1000"
               className="btn btn-outline border-text-Color font-bold text-text-Color hover:bg-text-Color"
               href="/resume.jpg"
               download={true}
