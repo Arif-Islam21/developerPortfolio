@@ -24,6 +24,12 @@ const Hero = () => {
             expert
           </p>
           <div className="justify-center flex-col lg:flex-row gap-3 md:justify-end flex">
+            <button
+              onClick={() => document.getElementById("my_modal_1").showModal()}
+              className="btn btn-outline border-text-Color font-bold text-text-Color hover:bg-text-Color"
+            >
+              Preview Resume
+            </button>
             <a
               className="btn btn-outline border-text-Color font-bold text-text-Color hover:bg-text-Color"
               href="/resume.jpg"
@@ -31,12 +37,7 @@ const Hero = () => {
             >
               <button>Download Resume </button>
             </a>
-            <button
-              onClick={() => document.getElementById("my_modal_1").showModal()}
-              className="btn btn-outline border-text-Color font-bold text-text-Color hover:bg-text-Color"
-            >
-              Preview Resume
-            </button>
+
             <dialog id="my_modal_1" className="modal">
               <div className="modal-box bg-base-100 max-h-screen">
                 <img src={resume} className="rounded-md" alt="" />
