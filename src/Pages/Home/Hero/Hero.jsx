@@ -1,5 +1,6 @@
 import img from "/portfolio.png";
 import background from "/bgimage.png";
+import resume from "/resume.jpg";
 
 const Hero = () => {
   return (
@@ -22,10 +23,31 @@ const Hero = () => {
             </span>{" "}
             expert
           </p>
-          <div className="justify-center md:justify-end flex">
-            <button className="btn btn-outline border-text-Color font-bold text-text-Color hover:bg-text-Color">
-              Get Started
+          <div className="justify-center flex-col lg:flex-row gap-3 md:justify-end flex">
+            <a
+              className="btn btn-outline border-text-Color font-bold text-text-Color hover:bg-text-Color"
+              href="/resume.jpg"
+              download={true}
+            >
+              <button>Download Resume </button>
+            </a>
+            <button
+              onClick={() => document.getElementById("my_modal_1").showModal()}
+              className="btn btn-outline border-text-Color font-bold text-text-Color hover:bg-text-Color"
+            >
+              Preview Resume
             </button>
+            <dialog id="my_modal_1" className="modal">
+              <div className="modal-box bg-base-100 max-h-screen">
+                <img src={resume} className="rounded-md" alt="" />
+                <div className="modal-action">
+                  <form method="dialog">
+                    {/* if there is a button in form, it will close the modal */}
+                    <button className="btn">Close</button>
+                  </form>
+                </div>
+              </div>
+            </dialog>
           </div>
         </div>
 
