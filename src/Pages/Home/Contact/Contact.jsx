@@ -23,7 +23,7 @@ const Contact = () => {
       <div className="lg:py-12 px-auto inline-block md:ml-[25vw]">
         <div className="grid grid-cols-1 gap-6 py-4 md:grid-cols-2">
           <div
-            data-aos="zoom-out-right"
+            data-aos="zoom-out-up"
             data-aos-duration="1000"
             className="inline-block"
           >
@@ -35,7 +35,7 @@ const Contact = () => {
             </div>
           </div>
           <div
-            data-aos="zoom-out-left"
+            data-aos="zoom-out-up"
             data-aos-duration="1200"
             className="inline-block"
           >

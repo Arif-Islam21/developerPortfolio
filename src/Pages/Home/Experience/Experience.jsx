@@ -36,7 +36,7 @@ const Experience = () => {
           </div>
         </div>
         <div
-          data-aos="fade-left"
+          data-aos="fade-up"
           data-aos-offset="150"
           data-aos-duration="500"
           className="flex justify-center py-6 gap-4"

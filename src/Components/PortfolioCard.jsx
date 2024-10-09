@@ -1,7 +1,7 @@
 const PortfolioCard = ({ img }) => {
   return (
-    <div data-aos="zoom-out-up" data-aos-duration="1000">
-      <div className="relative h-72 overflow-hidden rounded-sm">
+    <div>
+      <div data-aos="fade-up" data-aos-duration="1000">
         <img
           src={img}
           alt=""
