@@ -4,7 +4,7 @@ import resume from "/resume.jpg";
 
 const Hero = () => {
   return (
-    <div className="bg-[#34353A] min-h-[70vh]">
+    <div className="bg-[#34353A]  min-h-[70vh]">
       <div className="hero-content gap-24 flex-col-reverse lg:flex-row">
         <div
           data-aos="fade-down"

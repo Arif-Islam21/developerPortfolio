@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <div id="about" className="my-8 md:px-12">
+    <div id="about" className="my-8  md:px-12">
       <h2
         data-aos="fade-right"
         data-aos-duration="1000"
