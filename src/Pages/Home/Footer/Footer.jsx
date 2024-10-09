@@ -5,12 +5,13 @@ const Footer = () => {
   return (
     <footer className="footer relative footer-center bg-base-100 text-base-content p-4">
       <aside className="">
-        <h2 className="text-3xl font-merriWeather text-text-Color font-bold">
+        <h2 className="text-2xl lg:text-4xl font-merriWeather text-text-Color font-bold">
           <Typewriter
             words={["Thanks For Scrolling"]}
             cursor
             cursorStyle={"_"}
             loop
+            typeSpeed={200}
           />
         </h2>
         <a

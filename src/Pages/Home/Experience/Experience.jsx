@@ -5,7 +5,12 @@ const Experience = () => {
     <div id="experience" className="lg:px-12">
       <SectionTitle main={"experience"} />
       <div className="flex flex-col md:flex-row justify-around">
-        <div className="flex justify-center py-6 gap-4">
+        <div
+          data-aos="fade-right"
+          data-aos-offset="100"
+          data-aos-easing="ease-in-sine"
+          className="flex justify-center py-6 gap-4"
+        >
           <div className="w-3 border-l-2 h-auto flex justify-center items-start border-yellow-600 "></div>
           <div className="">
             <h2 className="text-3xl mb-1 font-bold text-white">
@@ -30,7 +35,12 @@ const Experience = () => {
             </ul>
           </div>
         </div>
-        <div className="flex justify-center py-6 gap-4">
+        <div
+          data-aos="fade-left"
+          data-aos-offset="150"
+          data-aos-duration="500"
+          className="flex justify-center py-6 gap-4"
+        >
           <div className="w-3 border-l-2 h-auto flex justify-center items-start border-yellow-600 "></div>
           <div className="">
             <h2 className="text-3xl mb-1 font-bold text-white">
