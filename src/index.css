@@ -8,3 +8,7 @@
 html {
   font-family: "Roboto", sans-serif;
 }
+
+.custom-ul li {
+  @apply border-2 my-2 drawer-overlay;
+}
