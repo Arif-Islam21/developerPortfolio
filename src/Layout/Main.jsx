@@ -4,7 +4,7 @@ import Footer from "../Pages/Home/Footer/Footer";
 
 const Main = () => {
   return (
-    <div className="bg-primary text-textColor min-h-screen">
+    <div className="bg-primary text-white min-h-screen">
       <Navbar />
       <div className={`min-h-[calc(100vh-155px)]`}>
         <Outlet />

@@ -18,7 +18,7 @@ const Navbar = () => {
               </div>
             </label>
             <div className="flex-none lg:pr-12">
-              <ul className="menu menu-horizontal px-1">
+              <ul className="menu hidden lg:flex menu-horizontal px-1">
                 <li>
                   <a href="#about" className="font-merriWeather">
                     About
@@ -53,11 +53,35 @@ const Navbar = () => {
               aria-label="close sidebar"
               className="drawer-overlay"
             ></label>
-            <ul className="menu bg-base-100 text-base-content min-h-full w-80 p-4">
+            <ul className="menu custom-ul bg-base-100 text-base-content min-h-full w-80 p-4">
               {/* Sidebar content here */}
-              <li>
-                <a>Content coming soon...</a>
-              </li>
+              <ul className="menu text-white flex lg:hidden flex-col menu-horizontal px-1">
+                <li>
+                  <a href="#about" className="font-merriWeather">
+                    About
+                  </a>
+                </li>
+                <li>
+                  <a href="#skills" className="font-merriWeather">
+                    Skills
+                  </a>
+                </li>
+                <li>
+                  <a href="#portfolio" className="font-merriWeather">
+                    Portfolio
+                  </a>
+                </li>
+                <li>
+                  <a href="#experience" className="font-merriWeather">
+                    Experience
+                  </a>
+                </li>
+                <li>
+                  <a href="#contact" className="font-merriWeather">
+                    Contact
+                  </a>
+                </li>
+              </ul>
             </ul>
           </div>
         </div>
