@@ -8,6 +8,8 @@ import AnimateCursor from "./Components/AnimateCursor.jsx";
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <RouterProvider router={router} />
-    {/* <div className="hidden md:flex"><AnimateCursor /></div> */}
+    <div className="hidden md:flex">
+      <AnimateCursor />
+    </div>
   </StrictMode>
 );
