@@ -1,8 +1,11 @@
 import img from "/portfolio.png";
 import background from "/bgimage.png";
 import resume from "/resume.jpg";
+import { useState } from "react";
+import AnimateCursor from "../../../Components/AnimateCursor";
 
 const Hero = () => {
+  const [isActive, setIsActive] = useState(false);
   return (
     <div className="bg-[#34353A]  min-h-[70vh]">
       <div className="hero-content gap-24 flex-col-reverse lg:flex-row">
@@ -11,7 +14,11 @@ const Hero = () => {
           data-aos-duration="2000"
           className="max-w-sm "
         >
-          <h1 className="text-3xl font-bold">
+          <h1
+            onMouseOver={() => setIsActive(true)}
+            onMouseLeave={() => setIsActive(false)}
+            className="text-3xl font-bold"
+          >
             I'm___
             <span className="text-5xl font-merriWeather text-text-Color">
               Ariful Islam
@@ -70,6 +77,7 @@ const Hero = () => {
           className={`object-cover animate-border-radius-move border-4 rounded-lg bg-white`}
         />
       </div>
+      {/* <AnimateCursor isActive={isActive} /> */}
     </div>
   );
 };
