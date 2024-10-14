@@ -5,20 +5,11 @@ import { useState } from "react";
 import AnimateCursor from "../../../Components/AnimateCursor";
 
 const Hero = () => {
-  const [isActive, setIsActive] = useState(false);
   return (
-    <div className="bg-[#34353A]  min-h-[70vh]">
-      <div className="hero-content gap-24 flex-col-reverse lg:flex-row">
-        <div
-          data-aos="fade-down"
-          data-aos-duration="2000"
-          className="max-w-sm "
-        >
-          <h1
-            onMouseOver={() => setIsActive(true)}
-            onMouseLeave={() => setIsActive(false)}
-            className="text-3xl font-bold"
-          >
+    <div className="flex justify-around gap-24 bg-[#34353A] py-12 min-h-[70vh] flex-col-reverse lg:flex-row">
+      <div className="flex justify-center items-center ">
+        <div data-aos="fade-down" data-aos-duration="2000" className="max-w-sm">
+          <h1 className="text-3xl font-bold">
             I'm___
             <span className="text-5xl font-merriWeather text-text-Color">
               Ariful Islam
@@ -66,18 +57,16 @@ const Hero = () => {
             </dialog>
           </div>
         </div>
-
-        <img
-          src={img}
-          style={{
-            borderRadius: "54% 46% 63% 37% / 50% 31% 69% 50%",
-            backgroundImage: `url(${background})`,
-            backgroundSize: "cover",
-          }}
-          className={`object-cover animate-border-radius-move border-4 rounded-lg bg-white`}
-        />
       </div>
-      {/* <AnimateCursor isActive={isActive} /> */}
+
+      <img
+        src={img}
+        style={{
+          backgroundImage: `url(${background})`,
+          backgroundSize: "cover",
+        }}
+        className={`object-cover animate-border-radius-move border-4 rounded-lg bg-white`}
+      />
     </div>
   );
 };

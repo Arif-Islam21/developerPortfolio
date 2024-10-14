@@ -20,42 +20,44 @@ const Contact = () => {
         </h2>
         <div className=" bg-text-Color rounded-box grid h-1 flex-grow place-items-center"></div>
       </div>
-      <div className="lg:py-12 px-auto inline-block md:ml-[25vw]">
-        <div className="grid grid-cols-1 gap-6 py-4 md:grid-cols-2">
-          <div
-            data-aos="zoom-out-up"
-            data-aos-duration="1000"
-            className="inline-block"
-          >
-            <div className=" flex items-center py-4 bg-primary rounded-lg px-8 gap-2">
-              <span className="text-2xl">
-                <MdEmail />
-              </span>{" "}
-              <p>arif.sojib2020@gmail.com</p>
+      <div className="flex justify-center items-center">
+        <div className="lg:py-12 inline-block ">
+          <div className="grid grid-cols-1 gap-6 py-4 md:grid-cols-2">
+            <div
+              data-aos="zoom-out-up"
+              data-aos-duration="1000"
+              className="inline-block"
+            >
+              <div className=" flex items-center py-4 bg-primary rounded-lg px-8 gap-2">
+                <span className="text-2xl">
+                  <MdEmail />
+                </span>{" "}
+                <p>arif.sojib2020@gmail.com</p>
+              </div>
             </div>
-          </div>
-          <div
-            data-aos="zoom-out-up"
-            data-aos-duration="1200"
-            className="inline-block"
-          >
-            <div className=" flex items-center py-4 bg-primary rounded-lg px-8 gap-2">
-              <span className="text-2xl">
-                <FaPhoneAlt />
-              </span>{" "}
-              <p>+08801833668024</p>
+            <div
+              data-aos="zoom-out-up"
+              data-aos-duration="1200"
+              className="inline-block"
+            >
+              <div className=" flex items-center py-4 bg-primary rounded-lg px-8 gap-2">
+                <span className="text-2xl">
+                  <FaPhoneAlt />
+                </span>{" "}
+                <p>+08801833668024</p>
+              </div>
             </div>
-          </div>
-          <div
-            data-aos="zoom-out-up"
-            data-aos-duration="1300"
-            className="inline-block lg:col-span-2 lg:mx-auto"
-          >
-            <div className=" flex items-center py-4 bg-primary rounded-lg px-8 gap-2">
-              <span className="text-2xl">
-                <FaLocationDot />
-              </span>{" "}
-              <p>Nilphamari sadar, Bangladesh</p>
+            <div
+              data-aos="zoom-out-up"
+              data-aos-duration="1300"
+              className="inline-block lg:col-span-2 lg:mx-auto"
+            >
+              <div className=" flex items-center py-4 bg-primary rounded-lg px-8 gap-2">
+                <span className="text-2xl">
+                  <FaLocationDot />
+                </span>{" "}
+                <p>Nilphamari sadar, Bangladesh</p>
+              </div>
             </div>
           </div>
         </div>

@@ -8,7 +8,7 @@ const Navbar = () => {
         data-aos-offset="300"
         data-aos-duration="500"
         data-aos-easing="ease-in-back"
-        className="ring-lime-200  ring-offset-base-100 w-14 rounded-full ring ring-offset-2"
+        className="ring-lime-200 lg:ml-16  ring-offset-base-100 w-14 rounded-full ring ring-offset-2"
       >
         <img src={img} />
       </div>
