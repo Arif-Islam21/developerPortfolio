@@ -10,6 +10,8 @@ import port9 from "../../../assets/images/assignment6.png";
 import port10 from "../../../assets/images/assignment7.png";
 import port11 from "../../../assets/images/assignment9.png";
 import port12 from "../../../assets/images/11ManageMeal.png";
+import port13 from "../../../assets/images/Cool-Wave.png";
+import port14 from "../../../assets/images/Cool-Wave-products.png";
 import SectionTitle from "../../../Components/SectionTitle";
 import PortfolioCard from "../../../Components/PortfolioCard";
 import { useState } from "react";
@@ -18,7 +20,7 @@ const Portfolio = () => {
   const [showItem, setShowItem] = useState(6);
   const port = [
     port1,
-    port2,
+    port13,
     port3,
     port4,
     port5,
@@ -29,6 +31,8 @@ const Portfolio = () => {
     port10,
     port11,
     port12,
+    port2,
+    port14,
   ];
 
   return (
