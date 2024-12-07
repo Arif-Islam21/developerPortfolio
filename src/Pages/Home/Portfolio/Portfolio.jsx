@@ -18,6 +18,15 @@ import { useState } from "react";
 
 const Portfolio = () => {
   const [showItem, setShowItem] = useState(6);
+
+  const portfolioData = [
+    {
+      image: port1,
+      websiteName: "Hostel Hub",
+      description: "",
+    },
+  ];
+
   const port = [
     port1,
     port13,
