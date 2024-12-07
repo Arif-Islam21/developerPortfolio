@@ -23,7 +23,20 @@ const Portfolio = () => {
     {
       image: port1,
       websiteName: "Hostel Hub",
-      description: "",
+      description:
+        "Hostel Hub is a modern web application designed to streamline hostel management for universities. It offers features like online room booking, payment tracking, and role-based access for admins and students. Built with the MERN stack, Hostel Hub simplifies operations, enhances efficiency, and provides a seamless experience for users.",
+      liveSite: "https://hostelhub-75eaf.web.app",
+      github: "https://github.com/Arif-Islam21/hostel-Hub",
+      technologys: [
+        "React",
+        "javascript",
+        "node",
+        "mongoDB",
+        "express.js",
+        "firebase",
+        "tailwind",
+        "Tan stack query",
+      ],
     },
   ];
 
