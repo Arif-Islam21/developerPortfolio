@@ -99,52 +99,73 @@ const Portfolio = () => {
         "This is a simple webpage designed with html and css. It have Navbar, header , banner, body footer and so on.",
 
       github: "https://github.com/Arif-Islam21/New-year-new-mission",
-      technologys: [
-        "React",
-        "javascript",
-        "node",
-        "mongoDB",
-        "express.js",
-        "firebase",
-        "tailwind",
-        "Tan stack query",
-      ],
+      technologys: ["html", "css", "javascript", "tailwind"],
     },
     {
       image: port6,
-      websiteName: "Hostel Hub",
+      websiteName: "Wrold Explorer",
       description:
-        "Hostel Hub is a modern web application designed to streamline hostel management for universities. It offers features like online room booking, payment tracking, and role-based access for admins and students. Built with the MERN stack, Hostel Hub simplifies operations, enhances efficiency, and provides a seamless experience for users.",
-      liveSite: "https://hostelhub-75eaf.web.app",
-      github: "https://github.com/Arif-Islam21/hostel-Hub",
-      technologys: [
-        "React",
-        "javascript",
-        "node",
-        "mongoDB",
-        "express.js",
-        "firebase",
-        "tailwind",
-        "Tan stack query",
-      ],
+        "World Explorer is a visually captivating static website designed to take users on a virtual journey across the globe. Built using HTML and CSS, it showcases stunning imagery and informative content about various countries, cultures, landmarks, and travel destinations. The website offers an immersive, easy-to-navigate experience, allowing users to explore diverse places through intuitive layouts and engaging design. Perfect for travel enthusiasts, World Explorer is your digital gateway to discovering the wonders of the world, all within a beautifully crafted and responsive interface.",
+      github: "https://github.com/Arif-Islam21/world-explorer",
+      technologys: ["html", "css", "javascript", "tailwind", "daisyUI"],
     },
-  ];
-
-  const port = [
-    port1,
-    port13,
-    port3,
-    port4,
-    port5,
-    port6,
-    port7,
-    port8,
-    port9,
-    port10,
-    port11,
-    port12,
-    port2,
-    port14,
+    // hockeys
+    // {
+    //   image: port7,
+    //   websiteName: "Wrold Explorer",
+    //   description:
+    //     "World Explorer is a visually captivating static website designed to take users on a virtual journey across the globe. Built using HTML and CSS, it showcases stunning imagery and informative content about various countries, cultures, landmarks, and travel destinations. The website offers an immersive, easy-to-navigate experience, allowing users to explore diverse places through intuitive layouts and engaging design. Perfect for travel enthusiasts, World Explorer is your digital gateway to discovering the wonders of the world, all within a beautifully crafted and responsive interface.",
+    //   github: "https://github.com/Arif-Islam21/world-explorer",
+    //   technologys: ["html", "css", "javascript", "tailwind", "daisyUI"],
+    // },
+    // {
+    //   image: port8,
+    //   websiteName: "Wrold Explorer",
+    //   description:
+    //     "World Explorer is a visually captivating static website designed to take users on a virtual journey across the globe. Built using HTML and CSS, it showcases stunning imagery and informative content about various countries, cultures, landmarks, and travel destinations. The website offers an immersive, easy-to-navigate experience, allowing users to explore diverse places through intuitive layouts and engaging design. Perfect for travel enthusiasts, World Explorer is your digital gateway to discovering the wonders of the world, all within a beautifully crafted and responsive interface.",
+    //   github: "https://github.com/Arif-Islam21/world-explorer",
+    //   technologys: ["html", "css", "javascript", "tailwind", "daisyUI"],
+    // },
+    // {
+    //   image: port9,
+    //   websiteName: "Wrold Explorer",
+    //   description:
+    //     "World Explorer is a visually captivating static website designed to take users on a virtual journey across the globe. Built using HTML and CSS, it showcases stunning imagery and informative content about various countries, cultures, landmarks, and travel destinations. The website offers an immersive, easy-to-navigate experience, allowing users to explore diverse places through intuitive layouts and engaging design. Perfect for travel enthusiasts, World Explorer is your digital gateway to discovering the wonders of the world, all within a beautifully crafted and responsive interface.",
+    //   github: "https://github.com/Arif-Islam21/world-explorer",
+    //   technologys: ["html", "css", "javascript", "tailwind", "daisyUI"],
+    // },
+    // {
+    //   image: port10,
+    //   websiteName: "Wrold Explorer",
+    //   description:
+    //     "World Explorer is a visually captivating static website designed to take users on a virtual journey across the globe. Built using HTML and CSS, it showcases stunning imagery and informative content about various countries, cultures, landmarks, and travel destinations. The website offers an immersive, easy-to-navigate experience, allowing users to explore diverse places through intuitive layouts and engaging design. Perfect for travel enthusiasts, World Explorer is your digital gateway to discovering the wonders of the world, all within a beautifully crafted and responsive interface.",
+    //   github: "https://github.com/Arif-Islam21/world-explorer",
+    //   technologys: ["html", "css", "javascript", "tailwind", "daisyUI"],
+    // },
+    // {
+    //   image: port11,
+    //   websiteName: "Wrold Explorer",
+    //   description:
+    //     "World Explorer is a visually captivating static website designed to take users on a virtual journey across the globe. Built using HTML and CSS, it showcases stunning imagery and informative content about various countries, cultures, landmarks, and travel destinations. The website offers an immersive, easy-to-navigate experience, allowing users to explore diverse places through intuitive layouts and engaging design. Perfect for travel enthusiasts, World Explorer is your digital gateway to discovering the wonders of the world, all within a beautifully crafted and responsive interface.",
+    //   github: "https://github.com/Arif-Islam21/world-explorer",
+    //   technologys: ["html", "css", "javascript", "tailwind", "daisyUI"],
+    // },
+    // {
+    //   image: port12,
+    //   websiteName: "Wrold Explorer",
+    //   description:
+    //     "World Explorer is a visually captivating static website designed to take users on a virtual journey across the globe. Built using HTML and CSS, it showcases stunning imagery and informative content about various countries, cultures, landmarks, and travel destinations. The website offers an immersive, easy-to-navigate experience, allowing users to explore diverse places through intuitive layouts and engaging design. Perfect for travel enthusiasts, World Explorer is your digital gateway to discovering the wonders of the world, all within a beautifully crafted and responsive interface.",
+    //   github: "https://github.com/Arif-Islam21/world-explorer",
+    //   technologys: ["html", "css", "javascript", "tailwind", "daisyUI"],
+    // },
+    // {
+    //   image: port2,
+    //   websiteName: "Wrold Explorer",
+    //   description:
+    //     "World Explorer is a visually captivating static website designed to take users on a virtual journey across the globe. Built using HTML and CSS, it showcases stunning imagery and informative content about various countries, cultures, landmarks, and travel destinations. The website offers an immersive, easy-to-navigate experience, allowing users to explore diverse places through intuitive layouts and engaging design. Perfect for travel enthusiasts, World Explorer is your digital gateway to discovering the wonders of the world, all within a beautifully crafted and responsive interface.",
+    //   github: "https://github.com/Arif-Islam21/world-explorer",
+    //   technologys: ["html", "css", "javascript", "tailwind", "daisyUI"],
+    // },
   ];
 
   return (
@@ -154,15 +175,17 @@ const Portfolio = () => {
         {/* {port.slice(0, showItem).map((item, idx) => {
           return <PortfolioCard key={idx} img={`${item}`} />;
         })} */}
-        {portfolioData?.map((item, idx) => {
+        {portfolioData.slice(0, showItem).map((item, idx) => {
           return <PortfolioCard key={idx} item={item} />;
         })}
       </div>
       <div className="flex justify-center my-6">
         {showItem === 6 ? (
           <button
-            onClick={() => setShowItem(port.length)}
-            className="btn btn-outline border-text-Color font-bold text-text-Color hover:bg-text-Color"
+            onClick={() => setShowItem(portfolioData.length)}
+            className={`btn ${
+              portfolioData.length <= 6 && "hidden"
+            } btn-outline border-text-Color font-bold text-text-Color hover:bg-text-Color`}
           >
             Show More
           </button>

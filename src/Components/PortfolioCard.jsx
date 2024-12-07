@@ -53,11 +53,13 @@ const PortfolioCard = ({ item }) => {
           )}
         </p>
         <div className="flex justify-around">
-          <button className="btn btn-sm btn-outline px-6">
-            <a href={liveSite} target="_blank">
-              Livesite
-            </a>
-          </button>
+          {liveSite && (
+            <button className="btn btn-sm btn-outline px-6">
+              <a href={liveSite} target="_blank">
+                Livesite
+              </a>
+            </button>
+          )}
           <button className="btn btn-sm btn-outline px-6">
             <a href={github} target="_blank">
               Github
