@@ -4,22 +4,22 @@ import img2 from "/portfolio2.jpeg";
 const Navbar = () => {
   const links = (
     <>
-      <button className="btn btn-sm btn-outline border-text-Color text-text-Color mr-2">
+      <button className="btn btn-sm btn-outline border-text-Color text-text-Color mt-2 md:mt-0 md:mr-2">
         <a href="#about" className="font-merriWeather">
           About
         </a>
       </button>
-      <button className="btn btn-sm btn-outline border-text-Color text-text-Color mr-2">
+      <button className="btn btn-sm btn-outline border-text-Color text-text-Color mt-2 md:mt-0 md:mr-2">
         <a href="#skills" className="font-merriWeather">
           Skills
         </a>
       </button>
-      <button className="btn btn-sm btn-outline border-text-Color text-text-Color mr-2">
+      <button className="btn btn-sm btn-outline border-text-Color text-text-Color mt-2 md:mt-0 md:mr-2">
         <a href="#portfolio" className="font-merriWeather">
           Portfolio
         </a>
       </button>
-      <button className="btn btn-sm btn-outline border-text-Color text-text-Color mr-2">
+      <button className="btn btn-sm btn-outline border-text-Color text-text-Color mt-2 md:mt-0 md:mr-2">
         <a href="#experience" className="font-merriWeather">
           Experience
         </a>
