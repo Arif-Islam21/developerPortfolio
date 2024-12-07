@@ -61,8 +61,11 @@ const Portfolio = () => {
     <div className="my-8 bg-base-100 py-8 " id="portfolio">
       <SectionTitle main={"Portfolio"} sub={"Some of my works"} />
       <div className="lg:mx-16 grid transition-opacity ease-out delay-700 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {port.slice(0, showItem).map((item, idx) => {
+        {/* {port.slice(0, showItem).map((item, idx) => {
           return <PortfolioCard key={idx} img={`${item}`} />;
+        })} */}
+        {portfolioData?.map((item, idx) => {
+          return <PortfolioCard key={idx} item={item} />;
         })}
       </div>
       <div className="flex justify-center my-6">
