@@ -28,22 +28,6 @@ const Navbar = () => {
   );
 
   return (
-    // <div className="navbar flex justify-between py-4 items-center bg-base-100">
-    //   <div
-
-    //     className="ring-lime-200 lg:ml-16  ring-offset-base-100 w-14 rounded-full ring ring-offset-2"
-    //   >
-    //     <img src={img} />
-    //   </div>
-    //   <div
-
-    //     className="flex-none  lg:pr-12"
-    //   >
-    //     <ul className="menu hidden lg:flex menu-horizontal px-1">
-
-    //     </ul>
-    //   </div>
-    // </div>
     // responsive navbr
     <div className="navbar bg-base-100">
       <div className="navbar-start">
@@ -71,7 +55,7 @@ const Navbar = () => {
             {links}
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl">
+        <a className="btn hidden md:flex btn-ghost text-xl">
           <div className="avatar online">
             <div className="w-12 rounded-full">
               <img src={img2} />
