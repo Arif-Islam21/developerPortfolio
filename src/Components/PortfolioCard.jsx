@@ -1,6 +1,9 @@
+import { useState } from "react";
+
 const PortfolioCard = ({ item }) => {
   const { image, technologys, github, liveSite, description, websiteName } =
     item;
+  const [isOpen, setIsopen] = useState(false);
   return (
     // <div data-aos="fade-up" data-aos-duration="1000">
     //   <div className="relative h-72 overflow-hidden rounded-sm">
@@ -27,9 +30,27 @@ const PortfolioCard = ({ item }) => {
       <div className="card-body border-2 border-t-0 rounded-b-md border-text-Color">
         <h2 className="card-title">{websiteName}</h2>
         <p>
-          {description.length > 75
-            ? description.slice(0, 75) + "..."
-            : description}
+          {description.length > 75 && !isOpen ? (
+            <>
+              {description.slice(0, 75)}...
+              <button
+                className="btn btn-link"
+                onClick={() => setIsopen(!isOpen)}
+              >
+                Show More
+              </button>
+            </>
+          ) : (
+            <>
+              {description}{" "}
+              <button
+                className="btn btn-link"
+                onClick={() => setIsopen(!isOpen)}
+              >
+                Show Less
+              </button>
+            </>
+          )}
         </p>
         <div className="flex justify-around">
           <button className="btn btn-sm btn-outline px-6">

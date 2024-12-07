@@ -38,6 +38,96 @@ const Portfolio = () => {
         "Tan stack query",
       ],
     },
+    {
+      image: port13,
+      websiteName: "Cool Wave",
+      description:
+        "Cool Wave is a sleek and dynamic platform that brings modern solutions to life with a refreshing touch of innovation. Whether it's a web application or a unique digital experience, Cool Wave is designed to deliver efficiency, style, and functionality. Built with cutting-edge technologies, it ensures seamless performance and a user-friendly interface, making it a wave of coolness in the tech world.",
+      liveSite: "https://cool-wave-11900.web.app/",
+      github: "https://github.com/Arif-Islam21/coolWave",
+      technologys: [
+        "React",
+        "javascript",
+        "node",
+        "mongoDB",
+        "express.js",
+        "firebase",
+        "tailwind",
+        "Tan stack query",
+      ],
+    },
+    {
+      image: port3,
+      websiteName: "Bistro boss",
+      description:
+        "Bistro Boss is a modern and stylish website designed for food enthusiasts and restaurant owners. It provides an engaging platform to explore delicious cuisines, manage menu items, and offer seamless online ordering. With a user-friendly interface and responsive design, Bistro Boss delivers a top-notch experience, making dining and management easier and more enjoyable. Built using the latest technologies, it ensures smooth functionality and a visually appealing experience for users.",
+      liveSite: "https://bistro-boss-224ea.web.app/",
+      github: "https://github.com/Arif-Islam21/bistro-boss-client",
+      technologys: [
+        "React",
+        "javascript",
+        "node",
+        "mongoDB",
+        "express.js",
+        "firebase",
+        "tailwind",
+        "Tan stack query",
+      ],
+    },
+    {
+      image: port4,
+      websiteName: "Woodify",
+      description:
+        "Woodify is a creative and sustainable platform dedicated to all things wood. Whether you're a woodworking enthusiast, artisan, or someone looking for high-quality wood products, Woodify offers a wide range of wooden items, from furniture to decor. The website features expert craftsmanship, sustainable sourcing, and a seamless shopping experience, bringing the beauty and versatility of wood into your home or business. With a focus on quality and craftsmanship, Woodify is your go-to destination for unique, handmade wooden pieces.",
+      liveSite: "https://woodify-b7999.web.app/",
+      github: "https://github.com/Arif-Islam21/woodify",
+      technologys: [
+        "React",
+        "javascript",
+        "node",
+        "mongoDB",
+        "express.js",
+        "firebase",
+        "tailwind",
+        "Tan stack query",
+      ],
+    },
+    {
+      image: port5,
+      websiteName: "New year",
+      description:
+        "This is a simple webpage designed with html and css. It have Navbar, header , banner, body footer and so on.",
+
+      github: "https://github.com/Arif-Islam21/New-year-new-mission",
+      technologys: [
+        "React",
+        "javascript",
+        "node",
+        "mongoDB",
+        "express.js",
+        "firebase",
+        "tailwind",
+        "Tan stack query",
+      ],
+    },
+    {
+      image: port6,
+      websiteName: "Hostel Hub",
+      description:
+        "Hostel Hub is a modern web application designed to streamline hostel management for universities. It offers features like online room booking, payment tracking, and role-based access for admins and students. Built with the MERN stack, Hostel Hub simplifies operations, enhances efficiency, and provides a seamless experience for users.",
+      liveSite: "https://hostelhub-75eaf.web.app",
+      github: "https://github.com/Arif-Islam21/hostel-Hub",
+      technologys: [
+        "React",
+        "javascript",
+        "node",
+        "mongoDB",
+        "express.js",
+        "firebase",
+        "tailwind",
+        "Tan stack query",
+      ],
+    },
   ];
 
   const port = [
@@ -60,7 +150,7 @@ const Portfolio = () => {
   return (
     <div className="my-8 bg-base-100 py-8 " id="portfolio">
       <SectionTitle main={"Portfolio"} sub={"Some of my works"} />
-      <div className="lg:mx-16 grid transition-opacity ease-out delay-700 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="lg:mx-16 grid transition-opacity ease-out delay-700 grid-cols-1 md:grid-cols-2 gap-8">
         {/* {port.slice(0, showItem).map((item, idx) => {
           return <PortfolioCard key={idx} img={`${item}`} />;
         })} */}
