@@ -1,6 +1,6 @@
 import img from "/portfolio.png";
 import background from "/bgimage.png";
-import resume from "/resume.jpg";
+import resume from "../../../assets/resume/resume.png";
 import { useState } from "react";
 import AnimateCursor from "../../../Components/AnimateCursor";
 
@@ -38,7 +38,7 @@ const Hero = () => {
               data-aos="fade-up"
               data-aos-duration="1000"
               className="btn btn-outline border-text-Color font-bold text-text-Color hover:bg-text-Color"
-              href="/resume.jpg"
+              href={resume}
               download={true}
             >
               <button>Download Resume </button>
