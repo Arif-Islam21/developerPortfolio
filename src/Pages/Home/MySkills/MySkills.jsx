@@ -1,6 +1,7 @@
 import { FaGitAlt, FaGithubSquare, FaNodeJs, FaReact } from "react-icons/fa";
 import Card from "../../../Components/Card";
 import { RiFirebaseLine, RiJavascriptFill } from "react-icons/ri";
+import { SiJsonwebtokens } from "react-icons/si";
 import { FaHtml5 } from "react-icons/fa6";
 import {
   SiCss3,
@@ -53,6 +54,10 @@ const MySkills = () => {
         <Card
           text={"Tan Stack Query"}
           icons={<SiReactquery size={72} color="#EC404F" />}
+        />
+        <Card
+          text={"Json web token"}
+          icons={<SiJsonwebtokens size={72} color="#EC404F" />}
         />
       </div>
     </div>
