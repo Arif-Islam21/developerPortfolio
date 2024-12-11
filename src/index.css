@@ -31,8 +31,7 @@ html {
   inherits: false;
 }
 
-.animate-card::after,
-.animate-card::before {
+.animate-card::after {
   content: "";
   position: absolute;
   height: 100%;
