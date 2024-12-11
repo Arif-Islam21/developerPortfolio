@@ -13,6 +13,32 @@ html {
   @apply border-2 my-2 drawer-overlay;
 }
 
+.animate-card {
+  margin: 0 auto;
+  padding: 2rem;
+  width: 90%;
+  background: #10121a;
+  /* background: #1c1f2b; */
+  text-align: center;
+  border-radius: 10px;
+  position: relative;
+  height: 150px;
+}
+
+.animate-card::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: red;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  z-index: -1;
+  padding: 30px;
+  border-radius: 10px;
+}
+
 /* #neon-cursor {
   @apply fixed w-4 h-4 bg-pink-500 rounded-full pointer-events-none;
   box-shadow: 0 0 15px rgba(255, 0, 150, 0.7);

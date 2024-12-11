@@ -13,13 +13,6 @@ export default {
       },
       animation: {
         "border-radius-move": "borderRadiusMove 5s infinite",
-        border: "border-animation 5s linear infinite",
-      },
-      keyframes: {
-        "border-animation": {
-          "0%": { transform: "translateX(-100%)" },
-          "100%": { transform: "translateX(100%)" },
-        },
       },
       fontFamily: {
         merriWeather: `"Merriweather", serif`,

@@ -19,7 +19,7 @@ const MySkills = () => {
       <div>
         <SectionTitle main={"My skills"} />
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-items-center gap-6 lg:px-16">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-items-center gap-4 lg:px-16">
         <Card text={"HTML"} icons={<FaHtml5 size={72} color="#DD4B25" />} />
         <Card text={"CSS"} icons={<SiCss3 size={72} color="#0577AA" />} />
         <Card
@@ -45,12 +45,10 @@ const MySkills = () => {
           text={"Github"}
           icons={<FaGithubSquare size={72} color="#000000" />}
         />
-        <div className="">
-          <Card
-            text={"React Router Dom"}
-            icons={<SiReactrouter size={72} color="#EC404F" />}
-          />
-        </div>
+        <Card
+          text={"React Router Dom"}
+          icons={<SiReactrouter size={72} color="#EC404F" />}
+        />
         <Card
           text={"Tan Stack Query"}
           icons={<SiReactquery size={72} color="#EC404F" />}

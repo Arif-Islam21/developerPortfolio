@@ -16,17 +16,7 @@
 // export default Card;
 
 const Card = ({ text, icons }) => {
-  return (
-    <div className="relative h-48 bg-white rounded-lg shadow-lg overflow-hidden group">
-      <div className="absolute inset-0 bg-gradient-to-r from-red-500 via-blue-500 to-green-500 animate-border move-border"></div>
-      <div className="relative p-2 bg-white rounded-lg">
-        <figure className="min-w-64 ">
-          <div className="min-w-60 pt-6  flex justify-center">{icons}</div>
-        </figure>
-        <h2 className="text-lg font-semibold">{text}</h2>
-      </div>
-    </div>
-  );
+  return <div className="animate-card">hello world</div>;
 };
 
 export default Card;
