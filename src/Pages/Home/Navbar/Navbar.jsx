@@ -62,7 +62,7 @@ const Navbar = () => {
             </div>
           </div> */}
           <h2 className="text-2xl font-semibold text-[#8F9094]">
-            &#123; <span className="text-white">A</span> &#125;
+            &#123; <span className="text-white animate-pulse">A</span> &#125;
           </h2>
         </a>
       </div>
