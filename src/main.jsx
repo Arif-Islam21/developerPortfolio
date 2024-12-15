@@ -4,6 +4,7 @@ import "./index.css";
 import { RouterProvider } from "react-router-dom";
 import router from "./Router/Routes.jsx";
 import AnimateCursor from "./Components/AnimateCursor.jsx";
+// import ParallaxSection from "./Components/ParallaxSection.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -11,5 +12,6 @@ createRoot(document.getElementById("root")).render(
     <div className="hidden md:flex">
       <AnimateCursor />
     </div>
+    {/* <ParallaxSection /> */}
   </StrictMode>
 );
