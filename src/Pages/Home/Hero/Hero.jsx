@@ -1,8 +1,8 @@
-import img from "/portfolio.png";
+import img from "/portfolioImage.jpeg";
 import background from "/bgimage.png";
-import resume from "../../../assets/resume/resume.png";
 import { useState } from "react";
 import AnimateCursor from "../../../Components/AnimateCursor";
+import resume from "/MERN-developer-resume-of-ariful-islam.pdf (1).pdf";
 
 const Hero = () => {
   return (
@@ -45,8 +45,15 @@ const Hero = () => {
             </a>
 
             <dialog id="my_modal_1" className="modal">
-              <div className="modal-box bg-base-100 max-h-screen">
-                <img src={resume} className="rounded-md" alt="" />
+              <div className="modal-box bg-base-100 min-h-[90vh] max-h-[90vh] w-full max-w-[90vw]">
+                <embed
+                  src={resume}
+                  className="h-full min-h-[80vh] min-w-[70vw] w-full"
+                />
+                {/* <iframe
+                  src={resume}
+                  style={{ width: "100%", height: "100%" }}
+                ></iframe> */}
                 <div className="modal-action">
                   <form method="dialog">
                     {/* if there is a button in form, it will close the modal */}
@@ -65,7 +72,7 @@ const Hero = () => {
           backgroundImage: `url(${background})`,
           backgroundSize: "cover",
         }}
-        className={`object-cover animate-border-radius-move border-4 rounded-lg bg-white`}
+        className={`object-cover animate-border-radius-move border-[#32CC91] shadow-2xl shadow-[#78dfd7] lg:w-[40vw] max-h-[70vh] border-4 rounded-lg bg-white`}
       />
     </div>
   );

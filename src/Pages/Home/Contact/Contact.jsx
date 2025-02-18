@@ -11,6 +11,39 @@ import {
 import { MdEmail } from "react-icons/md";
 
 const Contact = () => {
+  const socialLinks = [
+    {
+      href: "https://www.facebook.com/Ariful.arif2020",
+      icon: <FaFacebook />,
+      color: "text-blue-600 hover:text-blue-800",
+    },
+    {
+      href: "https://github.com/Arif-Islam21",
+      icon: <FaGithub />,
+      color: "text-white hover:text-white",
+    },
+    {
+      href: "https://www.linkedin.com/in/ar-arif-903363210",
+      icon: <FaLinkedin />,
+      color: "text-blue-700 hover:text-blue-900",
+    },
+    {
+      href: "https://wa.me/qr/ELOQYSOXGWN6H1",
+      icon: <FaWhatsapp />,
+      color: "text-green-500 hover:text-green-600",
+    },
+    {
+      href: "mailto:arif.sojib2020@gmail.com",
+      icon: <BiLogoGmail />,
+      color: "text-red-500 hover:text-red-600",
+    },
+    {
+      href: "tel:+8801833668024",
+      icon: <FaPhone />,
+      color: "text-green-700 hover:text-green-900",
+    },
+  ];
+
   return (
     <div id="contact" className="py-8 bg-base-100">
       <div className="flex w-full items-center">
@@ -66,27 +99,16 @@ const Contact = () => {
         <div className=" bg-text-Color rounded-box grid h-1 flex-grow place-items-center"></div>
         <h2 className="px-6 text-xl uppercase lg:text-3xl font-bold text-center text-white">
           <div className="flex gap-3">
-            <a target="_blank" href="https://www.facebook.com/Ariful.arif2020">
-              <FaFacebook />
-            </a>
-            <a target="_blank" href="https://github.com/Arif-Islam21">
-              <FaGithub />
-            </a>
-            <a
-              target="_blank"
-              href="https://www.linkedin.com/in/ar-arif-903363210?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-            >
-              <FaLinkedin />
-            </a>
-            <a target="_blank" href="https://wa.me/qr/ELOQYSOXGWN6H1">
-              <FaWhatsapp />
-            </a>
-            <a target="_blank" href="mailto:arif.sojib2020@gmail.com">
-              <BiLogoGmail />
-            </a>{" "}
-            <a target="_blank" href="tel:+8801833668024">
-              <FaPhone />
-            </a>{" "}
+            {socialLinks.map((link, index) => (
+              <a
+                key={index}
+                href={link.href}
+                target="_blank"
+                className={link.color}
+              >
+                {link.icon}
+              </a>
+            ))}
           </div>
         </h2>
         <div className=" bg-text-Color rounded-box grid h-1 flex-grow place-items-center"></div>

@@ -5,16 +5,6 @@ const PortfolioCard = ({ item }) => {
     item;
   const [isOpen, setIsopen] = useState(false);
   return (
-    // <div data-aos="fade-up" data-aos-duration="1000">
-    //   <div className="relative h-72 overflow-hidden rounded-sm">
-    //     <img
-    //       src={img}
-    //       alt=""
-    //       className="absolute top-0 left-0 h-auto w-full transition-all duration-[4500ms] ease-in-out hover:transform hover:translate-y-[-71%]"
-    //     />
-    //   </div>
-    // </div>
-
     <div
       data-aos="fade-up"
       data-aos-duration="1000"
@@ -54,13 +44,13 @@ const PortfolioCard = ({ item }) => {
         </p>
         <div className="flex justify-around">
           {liveSite && (
-            <button className="btn btn-sm btn-outline px-6">
+            <button className="btn btn-sm text-[#32CC91] btn-outline px-6">
               <a href={liveSite} target="_blank">
                 Livesite
               </a>
             </button>
           )}
-          <button className="btn btn-sm btn-outline px-6">
+          <button className="btn btn-sm text-[#32CC91] btn-outline px-6">
             <a href={github} target="_blank">
               Github
             </a>
