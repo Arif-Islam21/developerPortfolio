@@ -2,7 +2,6 @@ import { BiLogoGmail } from "react-icons/bi";
 import { BsTwitterX } from "react-icons/bs";
 import { FaFacebook, FaGithub, FaPhoneAlt } from "react-icons/fa";
 import {
-  FaInstagram,
   FaLinkedin,
   FaLocationDot,
   FaPhone,
