@@ -10,12 +10,17 @@ const PortfolioCard = ({ item }) => {
       data-aos-duration="1000"
       className=" image-full shadow-xl"
     >
-      <div className="relative h-72 overflow-hidden rounded-sm">
-        <img
+      <div className="relative h-[70vh] overflow-hidden rounded-sm">
+        {/* <img
           src={image}
           alt="portfolio cards"
           className="absolute top-0 left-0 h-auto w-full transition-all duration-[4500ms] ease-in-out hover:transform hover:translate-y-[-71%]"
-        />
+        /> */}
+        <iframe
+          src={liveSite || image}
+          className="w-full h-full"
+          title="Website Preview"
+        ></iframe>
       </div>
       <div className="card-body border-2 border-t-0 rounded-b-md border-text-Color">
         <h2 className="card-title">{websiteName}</h2>

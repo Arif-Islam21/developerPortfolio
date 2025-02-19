@@ -51,11 +51,6 @@ const Navbar = () => {
           </ul>
         </div>
         <a className="btn hidden md:flex btn-ghost text-xl">
-          {/* <div className="avatar online">
-            <div className="w-12 rounded-full">
-              <img src={img2} />
-            </div>
-          </div> */}
           <h2 className="text-2xl font-semibold text-[#8F9094]">
             &#123; <span className="text-white animate-pulse">A</span> &#125;
           </h2>
