@@ -21,6 +21,23 @@ const Portfolio = () => {
 
   const portfolioData = [
     {
+      websiteName: "Empire Building",
+      description:
+        "Empire Building is a MERN stack web application designed to streamline real estate and construction management. It offers a user-friendly platform for managing properties, tracking construction progress, and handling financial transactions. With seamless payment integration, role-based access control, and an intuitive dashboard, the system ensures efficient workflow and enhanced user experience. The project focuses on scalability, security, and automation, making it an ideal solution for businesses looking to expand their operations.",
+      liveSite: "https://empire-building-7d22a.web.app",
+      github: "https://github.com/Arif-Islam21",
+      technologys: [
+        "React",
+        "javascript",
+        "node",
+        "mongoDB",
+        "express.js",
+        "firebase",
+        "tailwind",
+        "Tan stack query",
+      ],
+    },
+    {
       image: port1,
       websiteName: "Hostel Hub",
       description:

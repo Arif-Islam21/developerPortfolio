@@ -52,7 +52,8 @@ const Navbar = () => {
         </div>
         <a className="btn hidden md:flex btn-ghost text-xl">
           <h2 className="text-2xl font-semibold text-[#8F9094]">
-            &#123; <span className="text-white animate-pulse">A</span> &#125;
+            &#123; <span className="text-[#F0BF6C] animate-pulse">A</span>{" "}
+            &#125;
           </h2>
         </a>
       </div>
